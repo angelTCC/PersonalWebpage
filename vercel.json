@@ -10,12 +10,8 @@
     ],
     "routes": [     
       {
-        "src": "/static/(.*)",
-        "dest": "PersonalWebpage/wsgi.py"
-      },
-      {
         "src": "/(.*)",
-        "dest": "/manage.py"
+        "dest": "PersonalWebpage/wsgi.py"
       }
     ]
   }
