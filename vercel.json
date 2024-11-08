@@ -12,6 +12,10 @@
       {
         "src": "/static/(.*)",
         "dest": "PersonalWebpage/wsgi.py"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/manage.py"
       }
     ]
   }
