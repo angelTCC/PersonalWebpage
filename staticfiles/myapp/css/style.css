@@ -1,0 +1,100 @@
+.content {
+    margin-left: 100px; /* Adds space between content and screen edges */
+    margin-right: 100px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 20px; /* Space for the side bar */
+    border-left: 3px solid #3498db; /* Vertical bar on the side */
+    margin-bottom: 15px; /* Space between items */
+}
+
+.toggle-btn {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: #3498db; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    padding: 0; /* No padding */
+    font-size: inherit; /* Inherit font size */
+}
+
+.details {
+    margin-top: 10px; /* Space above details */
+    display: none; /* Hidden by default */
+}
+
+
+
+.box {
+    height: 120px; /* Fixed height for boxes */
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    border: 2px solid #ccc; /* Border for boxes */
+    margin-bottom: 20px; /* Spacing between rows in smaller screens */
+    border-radius: 50px; /* Optional: rounded corners */
+    padding: 30px; /* Padding inside boxes */
+}
+
+
+.project {  
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack content vertically */
+    border: 2px solid #ccc; /* Border for boxes */
+    border-radius: 10px; /* Optional: rounded corners */
+    padding: 40px; /* Padding inside boxes */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+.project-description {
+    height: 180px; /* Set the specific height you want */
+}
+
+
+
+
+.status-box {
+    min-width: 10px; /* Minimum width for the status box */
+    background-color: #28a745; /* Green background for "In Progress" */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px; /* Padding inside the box */
+    text-align: center; /* Center the text */
+}
+
+
+.blog-post {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 230px;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* Custom styles for headers */
+h1 {
+    font-size: 3rem; /* Larger font size for h1 */
+    color: #343a40; /* Dark gray color for text */
+    font-weight: bold; /* Bold weight for emphasis */
+    text-align: center; /* Centered text */
+    margin-top: 40px; /* Space above */
+    margin-bottom: 20px; /* Space below */
+}
+
+h2 {
+    font-size: 2rem; /* Font size for h2 */
+    color: #6c757d; /* Muted text color */
+    font-weight: normal; /* Regular weight */
+    text-align: center; /* Centered text */
+    margin-top: 30px; /* Space above */
+    margin-bottom: 30px; /* Space below */
+}
