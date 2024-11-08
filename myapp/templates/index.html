@@ -1,0 +1,342 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container"> <!--HEADER---------------------------->
+        <header class="bg-primary text-white text-center p-4">
+            <h1>Welcome to my personal website</h1>
+            <p>Your favorite neighborhood bistro</p>
+        </header>
+    </div>
+
+    <div class="container"> <!--ABOUT ME-------------------------------------------------->
+
+        <h2>About me</h2> 
+        <p>I am a Bachelor of Science in Physics, with a strong academic 
+            background and hands-on experience in a variety of cutting-edge 
+            projects. I also gained valuable experience in stochastic process simulation 
+            applying it to biological processes, desing and construction Gravity-Based Solar Energy Storage System 
+            ,and collaborated on projects involving person re-identification and vehicle classification using computer vision.</p>
+                
+        <p>I am particularly eager to leverage my skills in machine learning, data science, and back-end development within the renewable energy and precision agriculture sectors. I believe that data-driven innovations can significantly contribute to sustainability in these fields. In addition to my technical endeavors, 
+            I have a strong passion for language learning, constantly seeking opportunities to broaden my knowledge and enhance my personal and professional growth..</p>
+        
+    </div>
+
+    <div class="container mt-4"> <!-- INTEREST-->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <h6>Science</h6>
+                    <p style="font-size: 10pt;">
+                        Intersted in applied science, proeject of renewablr energy and agrticulture.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <h6>Machine Learning</h6>
+                    <p style="font-size: 10pt;">
+                        Custom models for classification, regression, no supervised and deep learning. 
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="box">
+                    <h6>Django Developer</h6>
+                    <p style="font-size: 10pt;">
+                        Development the logis of web sites, creation of API.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="row">
+            <div class="col-md-4">
+                
+                <div class="box">
+                    <h6>ML Engineering</h6>
+                    <p style="font-size: small;">
+                        &bull; Computer Vision &bull;  NLP &bull; Time Series <br>
+                        &bull; Recommender Systems &bull; Anomaly Detection
+                        Expert Systems
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h6>Back-End developer</h6>
+                    <p style="font-size: small;">
+                        &bull; API Development  <br>
+                        &bull; Microservices Architecture
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h6>GIS Specialist</h6>
+                    <p style="font-size: small;">
+                        &bull; Spatial Analysis &bull; Remote Sensing &bull; GIS Applications &bull; Automation and Scripting
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box">
+                    <h6>Renewable energy</h6>
+                    <p style="font-size: small;">
+                        &bull; Solar and Wind energy &bull; Hydroelectric power <br>
+                        &bull; Energy management
+                    </p>                                
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h6>Agriculture</h6>
+                    <p style="font-size: small;">
+                        &bull; Production agriculture &bull; Technical irrigation <br>
+                        &bull; Hidraulica  &bull; Agriculture precision  Water resources and environmental preservation
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h6>Idioms</h6>
+                    <p style="font-size: small;">
+                        &bull; English 7.2 &bull; Aleman A2  
+                        &bull; Frances A2 <br>
+                        &bull; Chino HSK3 &bull; Quechua &bull; Señas
+                    </p>
+                </div>
+            </div>
+        </div>
+    -->
+    </div>
+
+    <div class="container">  <!--EXPERIENCE AND EDUCATION------------------------------->
+
+        <div class="row">
+
+            <div class="col-md-6"> <!--EXPERIENCE-->
+                <h3>Experience</h3>
+            
+                <div class="timeline-item">
+                    <h5>Análisis del Parque Automotor</h5>
+                    <p>Abr 2023 ‑ Mar 2024</p>
+                    <p style="color: grey;">Instituto ITS & Smart City</p>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('details1')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="details1" class="details" style="display: none;">
+                        <p>
+                            Conducted an analysis of the vehicle fleet to monitor traffic flow through vehicle classification and counting. Developed and trained a YOLO model for effective vehicle detection and tracking, enhancing traffic management and urban planning strategies.
+                        </p>
+                        <p><strong>Frameworks & Libraries:</strong> Ultralytics YOLO, OpenCV, Streamlit</p>
+                        <p><strong>Programming Language:</strong> Python</p>
+                    </div>
+                </div>
+            
+                <div class="timeline-item">
+                    <h5>Gravitational battery, design, construction and evaluation</h5>
+                    <p style="color: grey;">Vicerrectorado de Investigación ‑ FIGMM‑PFR‑23‑2023 ‑ UNI</p>
+                    <p>Ene 2023 ‑ Dic 2023</p>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('details2')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="details2" class="details" style="display: none;">
+                        <p>
+                            Developed a gravitational storage battery that captures solar panel energy as gravitational potential energy. Participated in the design, construction, and testing phases, integrating solar panels and DC motors to enable sustainable energy storage.
+                        </p>
+                        <p><strong>Instruments & Components:</strong> Multimeters, Microcontrollers, Solar Cells, DC Motors</p>
+                        <p><strong>Mechanical Skills:</strong> Machining, Bicycle Mechanics</p>
+                    </div>
+                </div>
+            
+                <div class="timeline-item">
+                    <h5>Simulaciones de procesos estocásticos</h5>
+                    <p style="color: grey;">Laboratorio de Física de la Materia Condensada ‑ UNI</p>
+                    <p>Ene 2022 ‑ Jul 2023</p>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('details3')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="details3" class="details" style="display: none;">
+                        <p>
+                            Applied stochastic models to simulate and analyze biological processes, focusing on cellular growth, COVID-19 infection processes, and Kinesin-driven Brownian motion. 
+                            Used statistical tools and Python libraries to develop and validate models, contributing to a deeper understanding of complex biological dynamics.
+                        </p>
+                        <p><strong>Programming & Libraries:</strong> Python, Pandas, Numpy, Matplotlib</p>
+                        <p><strong>Statistical Analysis:</strong> Stochastic modeling</p>                            
+                    </div>
+                </div>
+            </div>                  
+
+            <div class="col-md-6"> <!--EDUCATION-->
+                <h3>Education</h3>
+                <!--
+                <div class="timeline-item">
+                    <h6>Telematica 2025</h6>
+                    <p>GIS</p>
+                </div>
+                <div class="timeline-item">
+                    <h6>UANL 2025</h6>
+                    <p>Ingenieria agriculture</p>
+                </div>
+            -->
+                <div class="timeline-item">
+                    <h6>Meta 2024</h6>
+                    <p>Back-End developer with Django</p>
+                </div>
+                <div class="timeline-item">
+                    <h6>Google 2024</h6>
+                    <p>Machine learning Engineering</p>
+                </div>
+                <div class="timeline-item">
+                    <h6>IBM 2024</h6>
+                    <p>Machine learning</p>
+                </div>
+                <div class="timeline-item">
+                    <h6>Universidad Nacional de Ingenieria 2023</h6>
+                    <p>Bachiller degree in Scienci with mention in Physics</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+        
+    <div class="container"> <!--SOLVING PROBLEMAS--------------------->
+        <h2>Solving Problems</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <h5>Model and automatization</h5>
+                <p>With python.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Computer Vision</h5>
+                <p>Object detection, classification, and image segmentation.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Natural Language Processing</h5>
+                <p>Text analysis, sentiment detection, and chatbots.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Back-End Development</h5>
+                <p>Building APIs, managing databases, and scaling applications.</p>
+            </div>
+        </div>
+
+        <!--
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <h5>Computer Vision</h5>
+                <p>Object detection, classification, and image segmentation.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Natural Language Processing</h5>
+                <p>Text analysis, sentiment detection, and chatbots.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Data Analysis & Visualization</h5>
+                <p>Exploring data trends and visualizing key insights.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Back-End Development</h5>
+                <p>Building APIs, managing databases, and scaling applications.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <h5>Energy Forecasting</h5>
+                <p>Predicting energy demand and optimizing resource use.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Precision Agriculture</h5>
+                <p>Analyzing crop health using satellite data and machine learning.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Predictive Maintenance</h5>
+                <p>Monitoring machinery health and predicting failures.</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Time Series Forecasting</h5>
+                <p>Forecasting sales, stock prices, or resource consumption.</p>
+            </div>
+        </div>
+    -->
+    </div>
+
+
+    <div class="container"> <!--SKILLS--------------------------------->
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h5>Programming and complement</h5>
+                <ul>
+                    <li>Python, R, SQL</li>
+                    <li>Excel, PowerBI</li>
+                    <li>Latex</li>
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Scrapy</li>
+                </ul>
+            </div>  
+            <div class="col-md-6 col-sm-12">
+                <h5>Machine Learning Engineering</h5>
+                <ul>
+                    <li>Times Series</li>
+                    <li>Vertex AI</li>
+                    <li>Sklearn</li>
+                    <li>TensorFlow</li>
+                    <li>OpenCV</li>
+                    <li>Keras,</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+        <!--
+            <div class="col-md-4">
+                
+                <h5>Cybersecurity</h5>
+            
+        </div>
+        --->
+            <div class="col-md-6 col-sm-12">
+                <h5>Back-End Development</h5>
+                <ul>
+                    <li>HTML, CSS, JavaScrip</li>
+                    <li>Streamligt</li>
+                    <li>Flask</li>
+                    <li>Django</li>
+                    <li>REST API</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Geographic Information System</h5>
+                <ul>
+                    <li>ArcGis</li>
+                    <li>GeoPandas</li>
+                    <li>leafmap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Resume</h2>
+        <p>A tab where visitors can view or download your CV. You could also make it interactive, allowing people to browse through your experience, education, and skills directly on the site.</p>
+        <h2>Contact</h2>
+        <p>This tab can have a contact form and/or links to your LinkedIn, GitHub, or other professional profiles.</p>
+    </div>
+
+{% endblock %}
