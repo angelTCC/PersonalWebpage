@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-dk)28w2!v1dx__%hbk*0krs_-&bofpjszir9t=71idvw(^78%f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -119,12 +119,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # This is where Django will collect all static files when you run `collectstatic`
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Additional static files locations
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'myapp', 'static'),
-]
+#STATICFILES_DIRS = [
+#   os.path.join(BASE_DIR, 'myapp', 'static'),
+#]
 
 
 # Default primary key field type

@@ -6,7 +6,7 @@
     <div class="container"> <!--HEADER---------------------------->
         <header class="bg-primary text-white text-center p-4">
             <h1>Welcome to my personal website</h1>
-            <p>Your favorite neighborhood bistro</p>
+            <p>My name is Angel</p>
         </header>
     </div>
 
@@ -20,14 +20,14 @@
             ,and collaborated on projects involving person re-identification and vehicle classification using computer vision.</p>
                 
         <p>I am particularly eager to leverage my skills in machine learning, data science, and back-end development within the renewable energy and precision agriculture sectors. I believe that data-driven innovations can significantly contribute to sustainability in these fields. In addition to my technical endeavors, 
-            I have a strong passion for language learning, constantly seeking opportunities to broaden my knowledge and enhance my personal and professional growth..</p>
+            I have a strong passion for language learning, constantly seeking opportunities to broaden my knowledge and enhance my personal and professional growth.</p>
         
     </div>
 
     <div class="container mt-4"> <!-- INTEREST-->
         <div class="container mt-4"> <!-- INTERESTS -->
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4"> <!--energy and agriculture-->
                     <div class="box">
                         <h6>Science</h6>
                         <p style="font-size: 10pt;">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="box">
-                        <h6>Machine Learning</h6>
+                        <h6>Machine Learning</h6> <!--ML Engineering-->
                         <p style="font-size: 10pt;">
                             Fascinated by machine learning, with a focus on learning about classification, regression, unsupervised learning, and deep learning.
                         </p>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="box">
-                        <h6>Django Development</h6>
+                        <h6>Django Development</h6> <!--GIS and ML-->
                         <p style="font-size: 10pt;">
                             Interested in web development with Django, particularly in creating API endpoints and building the logic of web applications.
                         </p>
@@ -65,15 +65,6 @@
                         &bull; Computer Vision &bull;  NLP &bull; Time Series <br>
                         &bull; Recommender Systems &bull; Anomaly Detection
                         Expert Systems
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <h6>Back-End developer</h6>
-                    <p style="font-size: small;">
-                        &bull; API Development  <br>
-                        &bull; Microservices Architecture
                     </p>
                 </div>
             </div>
@@ -128,9 +119,11 @@
                 <h3>Experience</h3>
             
                 <div class="timeline-item">
-                    <h5>Análisis del Parque Automotor</h5>
-                    <p>Abr 2023 ‑ Mar 2024</p>
-                    <p style="color: grey;">Instituto ITS & Smart City</p>
+                    <div class="timeline-content">
+                        <h5>Análisis del Parque Automotor</h5>
+                        <p class="date">Abr 2023 ‑ Mar 2024</p>
+                        <p class="institution">Instituto ITS & Smart City</p>
+                    </div>
                     
                     <!-- Toggle Button -->
                     <button class="toggle-btn" onclick="toggleDetails('details1')">Show Details</button>
@@ -140,15 +133,19 @@
                         <p>
                             Conducted an analysis of the vehicle fleet to monitor traffic flow through vehicle classification and counting. Developed and trained a YOLO model for effective vehicle detection and tracking, enhancing traffic management and urban planning strategies.
                         </p>
-                        <p><strong>Frameworks & Libraries:</strong> Ultralytics YOLO, OpenCV, Streamlit</p>
-                        <p><strong>Programming Language:</strong> Python</p>
+                        <ul>
+                            <li><strong>Frameworks & Libraries:</strong> Ultralytics YOLO, OpenCV, Streamlit</li>
+                            <li><strong>Programming Language:</strong> Python</li>
+                        </ul>
                     </div>
                 </div>
             
                 <div class="timeline-item">
-                    <h5>Gravitational battery, design, construction and evaluation</h5>
-                    <p style="color: grey;">Vicerrectorado de Investigación ‑ FIGMM‑PFR‑23‑2023 ‑ UNI</p>
-                    <p>Ene 2023 ‑ Dic 2023</p>
+                    <div class="timeline-content">
+                        <h5>Gravitational battery, design, construction and evaluation</h5>
+                        <p class="date">Ene 2023 ‑ Dic 2023</p>
+                        <p class="institution">Vicerrectorado de Investigación ‑ FIGMM‑PFR‑23‑2023 ‑ UNI</p>
+                    </div>
                     
                     <!-- Toggle Button -->
                     <button class="toggle-btn" onclick="toggleDetails('details2')">Show Details</button>
@@ -158,15 +155,19 @@
                         <p>
                             Developed a gravitational storage battery that captures solar panel energy as gravitational potential energy. Participated in the design, construction, and testing phases, integrating solar panels and DC motors to enable sustainable energy storage.
                         </p>
-                        <p><strong>Instruments & Components:</strong> Multimeters, Microcontrollers, Solar Cells, DC Motors</p>
-                        <p><strong>Mechanical Skills:</strong> Machining, Bicycle Mechanics</p>
+                        <ul>
+                            <li><strong>Instruments & Components:</strong> Multimeters, Microcontrollers, Solar Cells, DC Motors</li>
+                            <li><strong>Mechanical Skills:</strong> Machining, Bicycle Mechanics</li>
+                        </ul>
                     </div>
                 </div>
             
                 <div class="timeline-item">
-                    <h5>Simulaciones de procesos estocásticos</h5>
-                    <p style="color: grey;">Laboratorio de Física de la Materia Condensada ‑ UNI</p>
-                    <p>Ene 2022 ‑ Jul 2023</p>
+                    <div class="timeline-content">
+                        <h5>Simulaciones de procesos estocásticos</h5>
+                        <p class="date">Ene 2022 ‑ Jul 2023/p>
+                        <p class="institution">Laboratorio de Física de la Materia Condensada ‑ UNI</p>
+                    </div>
                     
                     <!-- Toggle Button -->
                     <button class="toggle-btn" onclick="toggleDetails('details3')">Show Details</button>
@@ -177,8 +178,10 @@
                             Applied stochastic models to simulate and analyze biological processes, focusing on cellular growth, COVID-19 infection processes, and Kinesin-driven Brownian motion. 
                             Used statistical tools and Python libraries to develop and validate models, contributing to a deeper understanding of complex biological dynamics.
                         </p>
-                        <p><strong>Programming & Libraries:</strong> Python, Pandas, Numpy, Matplotlib</p>
-                        <p><strong>Statistical Analysis:</strong> Stochastic modeling</p>                            
+                        <ul>
+                            <li><strong>Programming & Libraries:</strong> Python, Pandas, Numpy, Matplotlib</li>
+                            <li><strong>Statistical Analysis:</strong> Stochastic modeling</li>
+                        </ul>                           
                     </div>
                 </div>
             </div>                  
@@ -196,20 +199,91 @@
                 </div>
             -->
                 <div class="timeline-item">
-                    <h6>Meta 2024</h6>
-                    <p>Back-End developer with Django</p>
+                    <div class="timeline-content">
+                        <h5>Back-End developer with Django</h5>
+                        <p class="date">--</p>
+                        <p class="institution">Meta</p>
+                    </div>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('education1')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="education1" class="details" style="display: none;">
+                        <p>
+                            Short description of the specialization and projects
+                        </p>
+                        <ul>
+                            <li><strong>Frameworks & Libraries:</strong> </li>
+                            <li><strong>Programming Language:</strong> </li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="timeline-item">
-                    <h6>Google 2024</h6>
-                    <p>Machine learning Engineering</p>
+                    <div class="timeline-content">
+                        <h5>Machine learning Engineering</h5>
+                        <p class="date">--</p>
+                        <p class="institution">Google</p>
+                    </div>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('education2')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="education2" class="details" style="display: none;">
+                        <p>
+                            Short description of the specialization and projects
+                        </p>
+                        <ul>
+                            <li><strong>Frameworks & Libraries:</strong> </li>
+                            <li><strong>Programming Language:</strong> </li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="timeline-item">
-                    <h6>IBM 2024</h6>
-                    <p>Machine learning</p>
+                    <div class="timeline-content">
+                        <h5>Machine learning</h5>
+                        <p class="date">--</p>
+                        <p class="institution">IBM</p>
+                    </div>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('education3')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="education3" class="details" style="display: none;">
+                        <p>
+                            Short description of the specialization and projects
+                        </p>
+                        <ul>
+                            <li><strong>Frameworks & Libraries:</strong> </li>
+                            <li><strong>Programming Language:</strong> </li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="timeline-item">
-                    <h6>Universidad Nacional de Ingenieria 2023</h6>
-                    <p>Bachiller degree in Scienci with mention in Physics</p>
+                    <div class="timeline-content">
+                        <h5>Bachiller degree in Scienci with mention in Physics</h5>
+                        <p class="date">--</p>
+                        <p class="institution">Universidad Nacional de Ingenieria 2023</p>
+                    </div>
+                    
+                    <!-- Toggle Button -->
+                    <button class="toggle-btn" onclick="toggleDetails('education4')">Show Details</button>
+                    
+                    <!-- Details Section -->
+                    <div id="education4" class="details" style="display: none;">
+                        <p>
+                            Short description of the specialization and projects
+                        </p>
+                        <ul>
+                            <li><strong>Frameworks & Libraries:</strong> </li>
+                            <li><strong>Programming Language:</strong> </li>
+                        </ul>
+                    </div>
                 </div>
                 
             </div>
@@ -307,31 +381,26 @@
         </div>
         
         <div class="row">
-        <!--
-            <div class="col-md-4">
-                
-                <h5>Cybersecurity</h5>
-            
+
+        
+        <div class="col-md-6 col-sm-12">
+            <h5>Back-End Development</h5>
+            <ul>
+                <li>HTML, CSS, JavaScrip</li>
+                <li>Streamligt</li>
+                <li>Flask</li>
+                <li>Django</li>
+                <li>REST API</li>
+            </ul>
         </div>
-        --->
-            <div class="col-md-6 col-sm-12">
-                <h5>Back-End Development</h5>
-                <ul>
-                    <li>HTML, CSS, JavaScrip</li>
-                    <li>Streamligt</li>
-                    <li>Flask</li>
-                    <li>Django</li>
-                    <li>REST API</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <h5>Geographic Information System</h5>
-                <ul>
-                    <li>ArcGis</li>
-                    <li>GeoPandas</li>
-                    <li>leafmap</li>
-                </ul>
-            </div>
+        <div class="col-md-6">
+            <h5>Geographic Information System</h5>
+            <ul>
+                <li>ArcGis</li>
+                <li>GeoPandas</li>
+                <li>leafmap</li>
+            </ul>
+        </div>
         </div>
     </div>
 
